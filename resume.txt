@@ -1,0 +1,51 @@
+SANGAMESH BIRADAR
+ +91-8660716629	 sangameshb510@gmail.com	 Bengaluru, Karnataka
+Objective
+Results-driven Computer Science Engineering student (CGPA: 8.29) specializing in Web Development, Data Analytics, and Machine Learning. Proven expertise in building scalable applications, implementing ETL pipelines with Power BI, and deploying ML models for real-world problem-solving. Looking for opportunities to contribute meaningfully to real projects.
+Education
+Dayananda Sagar University	2022 - Present
+Bachelor of Technology - Computer Science and Engineering	CGPA: 8.29
+Shree Siddhivinayaka PU Science College	2020 - 2022
+Department of Pre-University Education	92%
+Sri Veerabhadreshwara High School	2020
+Karnataka Secondary School Examination Board	88.32%
+Experience
+Infosys Springboard	- Present
+AI/ML Intern	Remote
+• Developing an intelligent AI agent for automated end-to-end web testing using natural language instructions, integrating LangGraph for workflow orchestration and Playwright for browser automation.
+• Architected multi-phase pipeline enabling instruction parsing, dynamic Playwright script generation, headless execution with adaptive DOM mapping, and comprehensive reporting with passed/failed assertions.
+• Implemented natural language processing to interpret test cases and generate executable Python scripts with automated assertions, eliminating manual test script creation.
+• Utilized LangChain Community Toolkit and Flask for web interface, following agile methodology with weekly milestones across 8-week development cycle.
+
+Technical Skills
+Languages: C, Python, HTML, CSS, JavaScript, SQL, Java
+Tools & Platforms: MySQL, Power BI, SPSS, MongoDB, Cursor, Figma, Git, GitHub
+Libraries & Frameworks: NumPy, Pandas, Matplotlib, LangGraph, Playwright, Flask, LangChain, scikit-learn
+
+Projects
+KnowledgeStore	2024
+• Developed free online bookstore platform providing unrestricted access to educational and recreational books across multiple domains.
+• Created platform architecture to make educational resources accessible to everyone without financial barriers.
+Pharmaceutical Sales Analysis	2025
+• Designed complete ETL pipeline for data extraction, cleaning, and transformation to uncover regional sales insights and distributor performance trends.
+
+LLM Router	2025
+• Developed an intelligent Routing Engine that classifies prompt intent to dynamically switch between lightweight models (Llama 3, Gemini Flash) and high-reasoning models (GPT-4o), reducing API costs by 60-80%.
+• Integrated SQLite-based observability to track real-time token usage, latency, and financial ROI via a custom Streamlit dashboard.
+Smart Agriculture Portal	2025
+• Developed web-based portal for farmers integrating ML models (Decision Tree, Regression, Time Series, Rule-based) to provide crop recommendation, yield forecasting, and disease prediction.
+• Built using Python, scikit-learn, Pandas, and MySQL, improving agricultural decision-making with accurate predictions.
+AI-Enabled Edge IoT System for Border Infiltration Detection	In Development
+• Building low-cost AI and IoT-based intrusion detection system integrating sensor fusion and edge computing to identify human and vehicle movement in real time.
+• Deploying lightweight ML models on ESP32/Raspberry Pi to enable fast, reliable alerts with minimal power usage.
+
+Certifications
+• Introduction to Model Context Protocol - Anthropic
+• AI and ML Certification - Infosys Springboard
+• Decoding Data: Insights and Impact through Analytics - IBM SkillsBuild x CSRBOX
+
+Participations
+• Smart India Hackathon (SIH) 2025 - National-level hackathon developing innovative solutions for government challenges
+• WebWizard Hackathon - IEEE ComSoc DSU - Developed innovative web solution in 3-hour coding challenge (2024)
+• NASA Space Apps Challenge - Global hackathon addressing space exploration challenges using open data (2024)
+• Data For Public Good Workshop - Indian Institute of Science (IISc), Bengaluru - Data science for social impact (2024)

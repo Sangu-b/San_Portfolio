@@ -1,0 +1,632 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+My prompt:
+hey i want to build my portfolio using the AI like Antigravity or Copilot pro etc... i have uploded the low level design how i wanted my website to look, it should be simple but attractive, clean, creative, professional and i don't want the blue or neon color in my website.
+References:
+https://www.tavus.io/ [i want my portfolio style like this exactly (Clean and Creative)]
+https://buildkite.com/ [for FAQ section the animation which they have done kind of do something else for my website]
+commonKnowledge [simple looks clean take some references for get in touch]
+
+these are the website link for your reference to build my portfolio
+
+now you just write a good prompt for this to build my portfolio i will give it to the agents so they can easily build
+
+Chatgpt:
+Below is a single, high-quality master prompt you can directly give to AI website-building agents (Antigravity, Copilot Pro, Cursor, Devin-like agents, etc.).
+It is structured, unambiguous, and optimized so agents clearly understand design, layout, constraints, and expectations.
+
+MASTER PROMPT - PORTFOLIO WEBSITE BUILD
+Role & Goal
+You are a senior product designer + frontend engineer. Your task is to design and build a personal portfolio website based strictly on the provided low-level design sketch and references.
+The final output must be simple, clean, creative, professional, and modern, without over-design.
+
+DESIGN PHILOSOPHY (VERY IMPORTANT)
+* Visual style must closely match tavus.io:
+o Minimalist
+o High whitespace
+o Calm, premium, modern
+o Subtle animations only
+* No flashy UI, no clutter, no heavy gradients
+* DO NOT use blue or neon colors
+* Use muted, neutral, earthy, or warm palettes
+(examples: off-white, charcoal, soft gray, beige, muted green, muted brown)
+* Typography should feel modern and professional (Inter, Satoshi, General Sans, etc.)
+
+LAYOUT REQUIREMENTS (FOLLOW THE SKETCH EXACTLY)
+1. Header / Navbar
+* Logo or name on the left
+* Navigation on the right:
+o Home
+o About
+o Experience / Projects
+o Skills / Tech Stack
+o FAQ
+o Contact
+* Sticky on scroll
+* Minimal hover animation (underline or subtle fade)
+
+2. Hero Section
+* Large headline introducing me (clean, bold typography)
+* Short sub-text explaining what I do
+* One primary CTA (e.g., "View Work" or "Get in Touch")
+* One secondary CTA (e.g., "Download Resume")
+* No background images; rely on typography and spacing
+
+3. About Section
+* Short professional summary
+* Focus on clarity, not storytelling overload
+* Optional small highlights (years, interests, focus areas)
+
+4. Experience / Projects Section
+* Card-based or list-based layout
+* Each item:
+o Title
+o Short description
+o Tech stack tags
+o Optional link
+* Clean hover effects only (scale 1-2%, shadow, opacity)
+
+5. Skills / Tech Stack
+* Categorized:
+o Languages
+o Frameworks
+o Tools
+* Minimal icons or text-only
+* No progress bars or gimmicks
+
+6. FAQ Section (Inspired by buildkite.com)
+* Accordion-style interaction
+* Smooth open/close animation
+* BUT: do NOT copy buildkite animation exactly
+? create a subtle, original animation
+* Questions about:
+o Work
+o Availability
+o Collaboration
+o Learning mindset
+
+7. Get in Touch Section (Simple & Clean)
+* Inspired by "commonKnowledge" style simplicity
+* Minimal form or email CTA
+* No complex backgrounds
+* Clear call-to-action
+
+8. Footer
+* Simple footer
+* Social links (GitHub, LinkedIn, Email)
+* Copyright text
+* No clutter
+
+COLOR & STYLE CONSTRAINTS (STRICT)
+* ? No blue
+* ? No neon
+* ? No glassmorphism
+* ? No loud gradients
+* ? Neutral palette
+* ? Soft contrasts
+* ? High readability
+
+ANIMATIONS
+* Use subtle animations only:
+o Fade-in on scroll
+o Small translateY
+o Smooth easing
+* No parallax overload
+* No distracting motion
+
+TECH REQUIREMENTS (IF CODING)
+* Responsive (mobile-first)
+* Clean semantic HTML
+* Modern CSS (Flex/Grid)
+* Optional: Tailwind (only if it does not look generic)
+* Clean folder structure
+* SEO-friendly
+* Performance-optimized
+
+OUTPUT EXPECTATION
+* Fully built portfolio website
+* Matches the uploaded low-level design
+* Visually aligned with tavus.io
+* FAQ interaction inspired by buildkite.com
+* Contact simplicity inspired by commonKnowledge
+* Final result should feel premium, calm, and intentional
+
+IMPORTANT FINAL NOTE
+If there is ever a conflict between:
+* creativity vs cleanliness ? choose cleanliness
+* animation vs clarity ? choose clarity
+* decoration vs professionalism ? choose professionalism
+
+If you want, next I can:
+* Customize this prompt for Antigravity specifically
+* Split it into Designer Agent + Developer Agent prompts
+* Convert this into a Cursor / Copilot step-by-step task file
+* Define an exact color palette + font pairing before build
+Just tell me how you want to proceed.
+
+My Prompt:
+all right i want my portfolio look exactly like tavus website but with some modification including animation in FAQs and in footer section the name sangamesh biradar should be large and looks exactly like Google labs footer and add a game like tavus website at the end
+
+Chatgpt:
+Below is a refined, strict, production-ready MASTER PROMPT tailored exactly to your new requirement.
+You can copy-paste this directly into Antigravity, Copilot Pro, Cursor agents, or any autonomous builder.
+This version is explicit, removes ambiguity, and enforces near-exact Tavus parity with controlled customizations.
+
+MASTER PROMPT - BUILD MY PORTFOLIO WEBSITE (TAVUS-LEVEL)
+ROLE
+You are an elite product designer and senior frontend engineer.
+Your task is to recreate the visual, structural, and experiential quality of tavus.io almost exactly, while adapting it into a personal portfolio website.
+This is not inspiration - this is close replication of look & feel, with controlled custom changes listed below.
+
+CORE DESIGN REQUIREMENT (NON-NEGOTIABLE)
+* The website must look extremely close to tavus.io
+o Typography scale
+o Spacing system
+o Layout rhythm
+o Section transitions
+o Minimalist premium aesthetic
+* Anyone visiting should immediately feel:
+"This feels like Tavus - but personal."
+
+STRICT STYLE RULES
+* ? No blue
+* ? No neon
+* ? No flashy gradients
+* ? No glassmorphism
+* ? No heavy shadows
+* ? Neutral palette only
+(off-white, soft gray, charcoal, muted earth tones)
+* ? High whitespace
+* ? Calm, confident, premium UI
+* ? Subtle micro-interactions
+Typography must feel identical in spirit to Tavus
+(large headings, generous line height, modern sans-serif).
+
+LAYOUT STRUCTURE (FOLLOW CLOSELY)
+1. Navbar (Tavus-style)
+* Identical spacing and minimalism as Tavus
+* Left: Name or logo
+* Right:
+Home | About | Work | Skills | FAQ | Contact
+* Sticky, smooth scroll
+* Minimal hover effect (opacity or underline)
+
+2. Hero Section (VERY IMPORTANT)
+* Must feel almost identical to Tavus hero
+* Large bold headline
+* Calm, confident messaging
+* One primary CTA
+* One secondary CTA
+* No imagery overload
+* No gradients
+* Pure typography + spacing dominance
+
+3. About Section
+* Minimal copy
+* Short, sharp, professional
+* Tavus-style layout rhythm
+
+4. Work / Projects
+* Clean card or list layout
+* Tavus-level spacing
+* No visual noise
+* Hover interactions should be subtle
+
+5. Skills / Tech Stack
+* Text-first
+* Categorized
+* No progress bars
+* No decorative icons unless minimal
+
+FAQ SECTION - CUSTOMIZED (IMPORTANT)
+Interaction Requirement
+* Inspired by Buildkite FAQ animations
+* BUT:
+o Must be original
+o Smooth accordion open/close
+o Slight easing, opacity + height transition
+* No copying animation code directly
+* Clean, premium feel
+Content
+* FAQs about:
+o Work style
+o Availability
+o Collaboration
+o Learning mindset
+
+FOOTER - VERY IMPORTANT (CUSTOM)
+Footer Style Reference
+* Must look extremely close to Google Labs footer
+o Large typography
+o Confident presence
+o Minimal links
+o Strong visual anchor
+Name Requirement
+* The name "Sangamesh Biradar"
+o Must be very large
+o Must dominate the footer
+o Typography-driven design
+o Clean, bold, modern
+o Similar visual weight and presence as Google Labs footer text
+Footer Content
+* Large name
+* Minimal social links
+* No clutter
+* No unnecessary text
+
+INTERACTIVE GAME SECTION (LIKE TAVUS)
+Placement
+* At the very end of the website, before or integrated with the footer
+Behavior
+* Small interactive element or micro-game
+* Inspired by Tavus playful section
+* Minimal
+* Lightweight
+* Fun but not distracting
+* Keyboard or mouse interaction
+Rules
+* Must feel premium
+* Must not break performance
+* Must match the overall calm aesthetic
+
+ANIMATION GUIDELINES
+* Subtle scroll-based reveals
+* Fade + slight translateY
+* Smooth easing
+* No parallax overload
+* No attention-seeking motion
+
+RESPONSIVENESS & QUALITY
+* Mobile-first
+* Perfect spacing on all screens
+* Clean semantic HTML
+* Optimized CSS
+* Fast load
+* SEO friendly
+
+OUTPUT EXPECTATION
+* A Tavus-level personal portfolio
+* Clean, modern, professional
+* Visually indistinguishable in quality from Tavus
+* Custom FAQ animation
+* Google Labs-style footer with large Sangamesh Biradar
+* Interactive game at the end
+* No blue, no neon, no clutter
+
+FINAL DECISION RULE
+If there is ever a choice between:
+* Fancy vs clean ? clean
+* Decorative vs professional ? professional
+* Animation vs clarity ? clarity
+
+If you want next, I can:
+* Split this into Designer Agent Prompt + Developer Agent Prompt
+* Define exact fonts + color palette matching Tavus tone
+* Write a game concept prompt separately for better results
+* Convert this into step-by-step Cursor tasks
+Just say what you want next.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Claude:
+Portfolio Website Build Task - Sangamesh Biradar
+Project Overview
+Build a premium, minimal personal portfolio website that replicates the visual quality and aesthetic of tavus.io while incorporating custom sections and interactions.
+
+Design Philosophy (CRITICAL)
+Visual Identity
+* Reference Standard: tavus.io (match this quality exactly)
+* Aesthetic: Minimalist, premium, calm, confident, modern
+* Whitespace: Generous - let content breathe
+* Quality Bar: Visitors should think "This feels like Tavus"
+Strict Color Rules
+? NEVER USE:
+* Blue (any shade)
+* Neon colors
+* Bright gradients
+* Glassmorphism effects
+* Heavy drop shadows
+? APPROVED PALETTE:
+* Off-white backgrounds (#FAFAFA, #F5F5F5)
+* Soft grays (#E5E5E5, #D4D4D4)
+* Charcoal text (#1A1A1A, #2D2D2D)
+* Muted earth accents (beige, sage green, warm gray)
+* High contrast for readability
+Typography System
+* Inspiration: Tavus.io typography scale
+* Font Families: Inter, Satoshi, General Sans, or similar modern sans-serif
+* Hierarchy: 
+o Hero headline: 72-96px (desktop), bold weight
+o Section titles: 48-56px
+o Body: 18-20px, generous line-height (1.6-1.8)
+* Style: Large, confident, lots of breathing room
+
+Layout Structure
+1. Navigation Bar
+Reference: Exact Tavus navbar style
+Requirements:
+* Sticky on scroll
+* Minimal design
+* Left: Logo/Name "Sangamesh Biradar" or "SB"
+* Right: Navigation links 
+o Home
+o About
+o Work
+o Skills
+o FAQ
+o Contact
+* Hover effect: Subtle opacity change or minimal underline
+* Background: Transparent or subtle background on scroll
+* Spacing: Match Tavus padding and rhythm
+
+2. Hero Section
+Critical: This must feel nearly identical to Tavus hero
+Layout:
+* Large, bold headline (your name or tagline)
+* Subheading: What you do (1-2 lines max)
+* Two CTAs: 
+o Primary: "View Work" or "Get in Touch"
+o Secondary: "Download Resume"
+* Pure typography-driven design
+* No background images
+* Generous vertical spacing
+Example Structure:
+[Large Name/Headline]
+[Short description of role/expertise]
+[Primary CTA] [Secondary CTA]
+
+3. About Section
+Style: Clean, concise, professional
+Content:
+* Short professional summary (3-4 sentences max)
+* Optional: Small stat highlights 
+o Years of experience
+o Focus areas
+o Current role/status
+* Tavus-level spacing
+* No visual clutter
+
+4. Work / Projects Section
+Layout Style: Card-based or minimal list
+Each Project Card:
+* Project title
+* Brief description (2-3 lines)
+* Tech stack tags (minimal, text-based)
+* Optional: Link to project/case study
+* Hover effect: Subtle scale (1.02x) or shadow
+Grid:
+* 2-3 columns on desktop
+* 1 column on mobile
+* Consistent spacing matching Tavus rhythm
+
+5. Skills / Tech Stack
+Display Style: Categorized, text-first
+Categories:
+* Languages (e.g., JavaScript, Python, Java)
+* Frameworks (e.g., React, Node.js, Next.js)
+* Tools (e.g., Git, Docker, Figma)
+Design:
+* Minimal or no icons
+* Text-based or simple badges
+* Clean grouping
+* NO progress bars or skill percentage visualizations
+
+6. FAQ Section (CUSTOM ANIMATION)
+Interaction Reference: Inspired by buildkite.com but original
+Requirements:
+* Accordion-style interaction
+* Smooth expand/collapse animation
+* Original animation (not copied from Buildkite)
+* Animation specs: 
+o Height transition with easing
+o Opacity fade
+o Rotation of expand icon
+o Duration: 300-400ms
+o Easing: cubic-bezier for smoothness
+Content Ideas:
+* "What's your development approach?"
+* "Are you available for projects?"
+* "What do you enjoy working on?"
+* "How do you collaborate with teams?"
+* "What are you currently learning?"
+Visual Style:
+* Minimal borders
+* Clean typography
+* Generous spacing between items
+* Subtle hover states
+
+7. Footer Section (VERY IMPORTANT - CUSTOM)
+Reference: Google Labs footer style
+Primary Requirement:
+* Name "SANGAMESH BIRADAR" must be VERY LARGE
+* Typography-driven design
+* Strong visual presence (similar weight to Google Labs)
+* Bold, modern, confident
+Layout:
+[VERY LARGE NAME: SANGAMESH BIRADAR]
+[Minimal social links: GitHub | LinkedIn | Email]
+[Copyright text: (c) 2026]
+Design Specs:
+* Name size: 64-96px (desktop)
+* Name weight: Bold or semi-bold
+* Clean layout
+* No visual clutter
+* High contrast
+* Generous padding
+
+8. Interactive Game Section (END OF SITE)
+Reference: Tavus.io playful interactive element
+Placement: Just before or integrated with footer
+Requirements:
+* Small, lightweight interactive element
+* Keyboard or mouse-driven
+* Fun but minimal
+* Must feel premium (not amateur)
+* Performance-optimized
+* Matches overall aesthetic
+Game Ideas (choose one or suggest):
+* Simple typing speed test
+* Mouse maze/path drawing
+* Memory card game
+* Click reaction test
+* Minimal pong/breakout variant
+Design:
+* Clean, modern UI
+* Minimal colors (follow palette)
+* Smooth animations
+* Clear instructions
+* Optional: Save score locally
+
+Animation Guidelines
+Principles
+* Subtle over flashy
+* Smooth easing functions
+* Performance-optimized
+* Purposeful, not decorative
+Approved Animations
+* Fade-in on scroll
+* Translate Y (small movement, 20-30px)
+* Scale on hover (1.02x - 1.05x max)
+* Opacity transitions
+* Accordion expand/collapse
+* Smooth page transitions
+Forbidden
+* Parallax overload
+* Bouncing effects
+* Spinning elements
+* Heavy 3D transforms
+* Attention-seeking motion
+
+Technical Requirements
+Code Quality
+* Semantic HTML5
+* Modern CSS (Flexbox/Grid)
+* Mobile-first responsive design
+* Clean folder structure
+* Commented code sections
+Performance
+* Fast load time (<3s)
+* Optimized images
+* Minimal dependencies
+* Efficient animations (use CSS transforms)
+Responsiveness
+* Mobile: 320px - 768px
+* Tablet: 768px - 1024px
+* Desktop: 1024px+
+* Breakpoints follow Tavus style
+SEO & Accessibility
+* Meta tags
+* Alt text for images
+* Semantic heading structure
+* Keyboard navigation
+* ARIA labels where needed
+* High color contrast (WCAG AA minimum)
+Optional Tech Stack
+* HTML/CSS/JS: Vanilla or minimal framework
+* Tailwind CSS: Only if it doesn't look generic
+* React: If component structure helps
+* GSAP/Framer Motion: For animations (optional)
+
+Content Placeholders
+Personal Information Needed
+* Full name: Sangamesh Biradar
+* Professional title/role
+* Short bio (3-4 sentences)
+* Projects (3-5 with descriptions)
+* Skills list
+* Social links (GitHub, LinkedIn, Email)
+* Resume PDF (optional)
+FAQ Content (Suggested)
+Provide 4-6 questions that showcase:
+* Work style
+* Availability
+* Collaboration approach
+* Learning mindset
+* Technical interests
+
+Quality Checklist
+Before considering the project complete:
+Visual
+* [ ] Looks indistinguishable in quality from Tavus.io
+* [ ] No blue or neon colors anywhere
+* [ ] Generous whitespace throughout
+* [ ] Typography feels premium and modern
+* [ ] Footer name is large and Google Labs-inspired
+Functional
+* [ ] All navigation links work
+* [ ] FAQ accordion animates smoothly
+* [ ] Game is functional and fun
+* [ ] Mobile responsive on all screen sizes
+* [ ] Fast load time
+Polish
+* [ ] Smooth scroll behavior
+* [ ] Consistent spacing system
+* [ ] Hover states on all interactive elements
+* [ ] Loading states if needed
+* [ ] Error handling for game/interactions
+
+Final Decision Framework
+When making design decisions, always choose:
+* Clean over fancy
+* Professional over decorative
+* Clarity over animation
+* Minimal over complex
+* Tavus quality over personal preference
+
+Deliverables
+1. Fully functional website (HTML/CSS/JS or React)
+2. Responsive on all devices
+3. Match Tavus quality in look and feel
+4. Custom FAQ animation (not copied)
+5. Google Labs-style footer with large name
+6. Working game at the end
+7. Clean, organized code
+8. README with setup instructions
+
+References
+* Primary: https://www.tavus.io/ (visual quality standard)
+* FAQ Animation: https://buildkite.com/ (inspiration only, create original)
+* Footer Contact: Common Knowledge (simplicity reference)
+* Footer Name Style: Google Labs footer (large typography)
+
+Notes for AI Agents
+* This is a quality-first project
+* Tavus.io is the gold standard - match that level
+* When in doubt: be more minimal
+* The website should feel expensive and intentional
+* Test on real devices if possible
+* Iterate until it feels right
+
+Remember: The goal is a portfolio that looks as professional and polished as Tavus.io while remaining distinctly personal to Sangamesh Biradar.
+
+
