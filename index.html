@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Sangamesh Biradar — Computer Science Engineer building AI agents, cloud-native SAP applications, and data-driven products.">
+<meta name="keywords" content="Sangamesh Biradar, AI Engineer, SAP BTP Developer, Machine Learning, Portfolio">
+<meta name="author" content="Sangamesh Biradar">
+<title>Sangamesh Biradar — AI & Cloud Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Ambient background -->
+<div class="bg-layer" aria-hidden="true">
+  <div class="bg-grid"></div>
+  <div class="blob blob-blue"></div>
+  <div class="blob blob-violet"></div>
+  <div class="blob blob-cyan"></div>
+  <div class="bg-noise"></div>
+</div>
+
+<!-- Custom cursor -->
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- Navbar -->
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="#home" class="nav-logo"><span class="dot"></span>Sangamesh</a>
+    <div class="nav-menu" id="navMenu">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#work" class="nav-link">Work</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#achievements" class="nav-link">Achievements</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
+    <div class="nav-actions">
+      <span class="nav-badge"><span class="pulse-dot"></span>Open to opportunities</span>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<div class="nav-mobile-menu" id="navMobileMenu">
+  <a href="#about" class="nav-link">About</a>
+  <a href="#experience" class="nav-link">Experience</a>
+  <a href="#work" class="nav-link">Work</a>
+  <a href="#skills" class="nav-link">Skills</a>
+  <a href="#achievements" class="nav-link">Achievements</a>
+  <a href="#contact" class="nav-link">Contact</a>
+</div>
+
+<!-- Hero -->
+<section class="hero" id="home">
+  <div class="container hero-container">
+    <div class="hero-badge reveal">
+      <span class="pulse-dot"></span>
+      Available for full-time roles &amp; internships — 2026
+    </div>
+
+    <h1 class="hero-title reveal">Sangamesh Biradar</h1>
+
+    <div class="hero-role-row reveal">
+      <span class="static">I build</span>
+      <span class="role-rotator"><span class="role-word" id="roleWord">AI-powered agents</span></span>
+    </div>
+
+    <p class="hero-desc reveal">
+      Computer Science Engineer working across <strong style="color:var(--text-1)">AI/ML systems</strong>,
+      <strong style="color:var(--text-1)">SAP BTP cloud applications</strong>, and full-stack products —
+      currently shipping intelligent automation at Sharp Gurus Informatics and Infosys Springboard.
+    </p>
+
+    <div class="hero-ctas reveal">
+      <span class="magnetic"><a href="#work" class="btn btn-primary">
+        View my work
+        <svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+      </a></span>
+      <span class="magnetic"><a href="#contact" class="btn btn-secondary">
+        Get in touch
+      </a></span>
+    </div>
+
+    <div class="hero-socials reveal">
+      <a href="https://github.com/Sangu-b" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+      </a>
+      <a href="https://www.linkedin.com/in/sangameshbiradar/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      </a>
+      <a href="mailto:sangameshb510@gmail.com" aria-label="Email">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18v12H3z"/><path d="M3 7l9 6 9-6"/></svg>
+      </a>
+    </div>
+
+    <div class="hero-stats reveal">
+      <div class="hero-stat"><div class="num">8.52</div><div class="label">CGPA</div></div>
+      <div class="hero-stat"><div class="num">2</div><div class="label">Internships</div></div>
+      <div class="hero-stat"><div class="num">1</div><div class="label">Published paper</div></div>
+    </div>
+  </div>
+
+  <div class="scroll-indicator" aria-hidden="true">Scroll<div class="line"></div></div>
+</section>
+
+<!-- About -->
+<section id="about">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="eyebrow">About</span>
+      <h2 class="section-title">Engineering at the intersection of <span class="text-gradient">AI and enterprise systems.</span></h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>
+          I'm a final-year Computer Science Engineering student at Dayananda Sagar University, Bengaluru,
+          with a <strong>CGPA of 8.52</strong>. My work sits between two worlds: building autonomous AI agents
+          that automate real workflows, and shipping cloud-native applications on SAP BTP.
+        </p>
+        <p>
+          Right now I'm a <strong>SAP BTP Intern at Sharp Gurus Informatics</strong>, developing ABAP RESTful
+          applications with the RAP model, and previously spent time as an <strong>AI/ML Intern at Infosys Springboard</strong>,
+          architecting an agent that automates web testing with LangGraph and Playwright.
+        </p>
+        <p>
+          Outside internships, I led a KSCST-funded edge-AI research project for border security that resulted
+          in a paper published at ICEMCSI 2026 — the kind of end-to-end ownership, from sensor to publication,
+          I look for in everything I build.
+        </p>
+
+        <div class="about-highlights">
+          <div class="highlight-card"><div class="num">8.52</div><div class="label">CGPA</div></div>
+          <div class="highlight-card"><div class="num">4+</div><div class="label">Shipped projects</div></div>
+          <div class="highlight-card"><div class="num">3</div><div class="label">Certifications</div></div>
+        </div>
+      </div>
+
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <span class="t-year">2022 — 2026</span>
+          <h4>B.Tech, Computer Science &amp; Engineering</h4>
+          <p>Dayananda Sagar University, Bengaluru · CGPA 8.52</p>
+        </div>
+        <div class="timeline-item">
+          <span class="t-year">2020 — 2022</span>
+          <h4>Pre-University Education (PCMB)</h4>
+          <p>Shree Siddhivinayaka PU Science College, Bidar · 92%</p>
+        </div>
+        <div class="timeline-item">
+          <span class="t-year">2026</span>
+          <h4>Paper published — ICEMCSI 2026</h4>
+          <p>Edge-AI border security research, KSCST-funded</p>
+        </div>
+        <div class="timeline-item">
+          <span class="t-year">2025 — 2026</span>
+          <h4>AI/ML &amp; SAP BTP Internships</h4>
+          <p>Infosys Springboard, Sharp Gurus Informatics</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Experience -->
+<section id="experience">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="eyebrow">Experience</span>
+      <h2 class="section-title">Where I've been building.</h2>
+    </div>
+
+    <div class="exp-track">
+      <div class="exp-progress" id="expProgress"></div>
+
+      <div class="exp-item reveal">
+        <div class="exp-dot"></div>
+        <div class="exp-card">
+          <div class="exp-top">
+            <div>
+              <div class="exp-company">Sharp Gurus Informatics Pvt. Ltd.</div>
+              <span class="exp-role">SAP BTP Intern</span>
+            </div>
+            <div class="exp-meta">Feb 2026 – Jun 2026<span class="loc">Remote</span></div>
+          </div>
+          <ul class="exp-list">
+            <li>Developed and deployed ABAP programs on SAP BTP ABAP Environment (Steampunk), building RESTful services with the ABAP RESTful Application Programming (RAP) model for cloud-native enterprise applications.</li>
+            <li>Designed and consumed OData V4 services via ABAP CDS Views and Business Object (BO) interfaces, integrating ABAP backend logic with SAP Fiori/UI5 frontends.</li>
+            <li>Implemented ABAP Dictionary objects, database tables, and transactional CRUD operations within Cloud Foundry, following SAP Clean Core principles and BTP architectural best practices.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="exp-item reveal">
+        <div class="exp-dot"></div>
+        <div class="exp-card">
+          <div class="exp-top">
+            <div>
+              <div class="exp-company">Infosys Springboard</div>
+              <span class="exp-role">AI/ML Intern</span>
+            </div>
+            <div class="exp-meta">Dec 2025 – Feb 2026<span class="loc">Remote</span></div>
+          </div>
+          <ul class="exp-list">
+            <li>Architected an intelligent AI agent for automated web testing using NLP, LangGraph for workflow orchestration, and Playwright for browser automation — cutting manual test-creation time.</li>
+            <li>Built a multi-phase ML pipeline for instruction parsing, dynamic script generation, and adaptive DOM mapping with assertion-based reporting.</li>
+            <li>Delivered a scalable Flask interface using LangChain Community Toolkit, following agile methodology with weekly milestones.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="work">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="eyebrow">Selected work</span>
+      <h2 class="section-title">Projects built to solve<br>real problems.</h2>
+      <p class="section-sub">From published edge-AI research to production ML pipelines and full-stack platforms.</p>
+    </div>
+
+    <div class="projects-grid">
+
+      <article class="project-card reveal-scale">
+        <span class="project-badge">Published · ICEMCSI 2026</span>
+        <div class="project-thumb">
+          <div class="grid-overlay"></div>
+          <svg viewBox="0 0 48 48" fill="none" stroke="var(--blue)" stroke-width="1.4"><circle cx="24" cy="24" r="18"/><circle cx="24" cy="24" r="9"/><path d="M24 6v6M24 36v6M6 24h6M36 24h6"/></svg>
+        </div>
+        <div class="project-top-row">
+          <h3 class="project-title">Edge IoT System for Border Security</h3>
+          <span class="project-year">2026</span>
+        </div>
+        <p class="project-desc">
+          Real-time intrusion detection via sensor fusion, edge computing, and lightweight ML for human/vehicle
+          classification — engineered for sub-second inference and minimal power draw on ESP32 and Raspberry Pi.
+        </p>
+        <div class="project-impact">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/></svg>
+          KSCST-funded (Govt. of Karnataka) · research paper published
+        </div>
+        <div class="project-tech"><span>ESP32</span><span>Raspberry Pi</span><span>ML</span><span>Sensor Fusion</span></div>
+      </article>
+
+      <article class="project-card reveal-scale">
+        <div class="project-thumb">
+          <div class="grid-overlay"></div>
+          <svg viewBox="0 0 48 48" fill="none" stroke="var(--violet)" stroke-width="1.4"><path d="M6 34l10-14 8 8 12-18"/><path d="M32 10h6v6"/><circle cx="16" cy="20" r="2" fill="var(--violet)" stroke="none"/><circle cx="24" cy="28" r="2" fill="var(--violet)" stroke="none"/></svg>
+        </div>
+        <div class="project-top-row">
+          <h3 class="project-title">Smart Agriculture Portal</h3>
+          <span class="project-year">2025</span>
+        </div>
+        <p class="project-desc">
+          End-to-end ML solution using Decision Tree, Regression, and Time Series models for crop recommendation,
+          yield forecasting, and disease prediction — built on Flask with a MySQL data layer.
+        </p>
+        <div class="project-impact">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/></svg>
+          77% prediction accuracy across models
+        </div>
+        <div class="project-tech"><span>Flask</span><span>scikit-learn</span><span>Pandas</span><span>MySQL</span></div>
+      </article>
+
+      <article class="project-card reveal-scale">
+        <div class="project-thumb">
+          <div class="grid-overlay"></div>
+          <svg viewBox="0 0 48 48" fill="none" stroke="var(--cyan)" stroke-width="1.4"><rect x="6" y="10" width="36" height="26" rx="2"/><path d="M12 30l6-8 5 5 8-11"/></svg>
+        </div>
+        <div class="project-top-row">
+          <h3 class="project-title">Pharmaceutical Sales &amp; BI</h3>
+          <span class="project-year">2025</span>
+        </div>
+        <p class="project-desc">
+          Analysed global pharmaceutical sales data and built drill-down Power BI dashboards on top of a full
+          ETL pipeline, designed for executive-level decision-making.
+        </p>
+        <div class="project-impact">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/></svg>
+          Uncovered 15% regional revenue growth
+        </div>
+        <div class="project-tech"><span>Power BI</span><span>Power Query</span><span>ETL</span><span>SQL</span></div>
+      </article>
+
+      <article class="project-card reveal-scale">
+        <div class="project-thumb">
+          <div class="grid-overlay"></div>
+          <svg viewBox="0 0 48 48" fill="none" stroke="var(--blue)" stroke-width="1.4"><path d="M8 20l16-12 16 12v16H8z"/><path d="M20 36V24h8v12"/></svg>
+        </div>
+        <div class="project-top-row">
+          <h3 class="project-title">UrbanDwell — Property Platform</h3>
+          <span class="project-year">2024</span>
+        </div>
+        <p class="project-desc">
+          Multi-role property management platform with RBAC for agents, buyers, and admins, featuring an
+          integrated AI chatbot and 3D property visualisation for engagement.
+        </p>
+        <div class="project-impact">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/></svg>
+          Role-based access across 3 user types
+        </div>
+        <div class="project-tech"><span>PHP</span><span>MySQL</span><span>RBAC</span><span>Chatbot</span></div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="eyebrow">Skills</span>
+      <h2 class="section-title">The stack behind the work.</h2>
+    </div>
+
+    <div class="skills-tabs" id="skillsTabs">
+      <button class="skills-tab active" data-filter="all">All</button>
+      <button class="skills-tab" data-filter="frontend">Frontend</button>
+      <button class="skills-tab" data-filter="backend">Backend</button>
+      <button class="skills-tab" data-filter="ai">AI / ML</button>
+      <button class="skills-tab" data-filter="cloud">Cloud &amp; SAP</button>
+      <button class="skills-tab" data-filter="tools">Tools</button>
+    </div>
+
+    <div class="skills-grid" id="skillsGrid">
+      <!-- Frontend -->
+      <div class="skill-card" data-cat="frontend"><div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16v16H4z"/><path d="M4 9h16"/></svg></div><div class="skill-name">HTML5</div></div>
+      <div class="skill-card" data-cat="frontend"><div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 3l1.5 17L12 22l7.5-2L21 3z"/></svg></div><div class="skill-name">CSS3</div></div>
+      <div class="skill-card" data-cat="frontend backend"><div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 17l6-6-6-6M12 19h8"/></svg></div><div class="skill-name">JavaScript</div></div>
+      <div class="skill-card" data-cat="frontend"><div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 12h8M12 8v8"/></svg></div><div class="skill-name">SAP Fiori/UI5</div></div>
+      <div class="skill-card" data-cat="frontend tools"><div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 000 18"/></svg></div><div class="skill-name">Figma</div></div>
+
+      <!-- Backend -->
+      <div class="skill-card" data-cat="backend"><div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M8 12h8M12 8v8"/></svg></div><div class="skill-name">Python</div></div>
+      <div class="skill-card" data-cat="backend"><div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 3l12 18M18 3L6 21"/></svg></div><div class="skill-name">Java</div></div>
+      <div class="skill-card" data-cat="backend cloud"><div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v12c0 1.7 3.6 3 8 3s8-1.3 8-3V6"/></svg></div><div class="skill-name">SQL</div></div>
+      <div class="skill-card" data-cat="backend cloud"><div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16v16H4z"/><path d="M8 8h8v8H8z"/></svg></div><div class="skill-name">ABAP</div></div>
+      <div class="skill-card" data-cat="backend"><div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l9 4.5v9L12 20l-9-4.5v-9z"/></svg></div><div class="skill-name">Django</div></div>
+      <div class="skill-card" data-cat="backend frontend"><div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4v16h16"/><path d="M8 15l3-4 3 3 4-6"/></svg></div><div class="skill-name">Node.js</div></div>
+      <div class="skill-card" data-cat="backend frontend"><div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12h16M12 4v16"/></svg></div><div class="skill-name">Express.js</div></div>
+
+      <!-- AI / ML -->
+      <div class="skill-card" data-cat="ai"><div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/></svg></div><div class="skill-name">LangGraph</div></div>
+      <div class="skill-card" data-cat="ai"><div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l3 7h7l-5.5 4.5L18 20l-6-4-6 4 1.5-6.5L2 9h7z"/></svg></div><div class="skill-name">LangChain</div></div>
+      <div class="skill-card" data-cat="ai"><div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="8.5" cy="10" r="1.4" fill="currentColor" stroke="none"/><circle cx="15.5" cy="10" r="1.4" fill="currentColor" stroke="none"/><path d="M8 15c1.3 1 2.7 1.5 4 1.5s2.7-.5 4-1.5"/></svg></div><div class="skill-name">Playwright</div></div>
+      <div class="skill-card" data-cat="ai"><div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19h16M6 15l4-6 3 4 4-7"/></svg></div><div class="skill-name">scikit-learn</div></div>
+      <div class="skill-card" data-cat="ai"><div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="4" width="7" height="7"/><rect x="13" y="4" width="7" height="7"/><rect x="4" y="13" width="7" height="7"/><rect x="13" y="13" width="7" height="7"/></svg></div><div class="skill-name">NumPy</div></div>
+      <div class="skill-card" data-cat="ai"><div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4v16h16M8 16V9M13 16V6M18 16v-4"/></svg></div><div class="skill-name">Pandas</div></div>
+
+      <!-- Cloud & SAP -->
+      <div class="skill-card" data-cat="cloud"><div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 18a4.5 4.5 0 010-9 5.5 5.5 0 0110.6-1.8A4 4 0 0117 18H7z"/></svg></div><div class="skill-name">SAP BTP</div></div>
+      <div class="skill-card" data-cat="cloud"><div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18"/></svg></div><div class="skill-name">Cloud Foundry</div></div>
+      <div class="skill-card" data-cat="cloud backend"><div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v12c0 1.7 3.6 3 8 3s8-1.3 8-3V6"/><path d="M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg></div><div class="skill-name">MySQL</div></div>
+      <div class="skill-card" data-cat="cloud backend"><div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2C8 6 5 10 5 14a7 7 0 0014 0c0-4-3-8-7-12z"/></svg></div><div class="skill-name">MongoDB</div></div>
+      <div class="skill-card" data-cat="tools"><div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 8l3 3-3 3M6 8l-3 3 3 3M14 4l-4 16"/></svg></div><div class="skill-name">Power BI</div></div>
+
+      <!-- Tools -->
+      <div class="skill-card" data-cat="tools"><div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="6" cy="6" r="2.5"/><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="12" r="2.5"/><path d="M6 8.5v7M8.3 7l7.4 3.7M8.3 17l7.4-3.7"/></svg></div><div class="skill-name">Git / GitHub</div></div>
+      <div class="skill-card" data-cat="tools"><div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 17l4-10 4 10M6.5 13h3"/><path d="M14 17V9h3a2.5 2.5 0 010 5h-3"/></svg></div><div class="skill-name">Linux</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- Achievements -->
+<section id="achievements">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="eyebrow">Certifications &amp; recognition</span>
+      <h2 class="section-title">Proof of the work.</h2>
+    </div>
+
+    <div class="achieve-grid">
+      <div class="achieve-card reveal">
+        <div class="achieve-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l3 7h7l-5.5 4.5L18 20l-6-4-6 4 1.5-6.5L2 9h7z"/></svg></div>
+        <h4>Introduction to Model Context Protocol</h4>
+        <span>Anthropic</span>
+      </div>
+      <div class="achieve-card reveal">
+        <div class="achieve-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19h16M6 15l4-6 3 4 4-7"/></svg></div>
+        <h4>Decoding Data: Insights &amp; Impact</h4>
+        <span>IBM SkillsBuild × CSRBOX</span>
+      </div>
+      <div class="achieve-card reveal">
+        <div class="achieve-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 18a4.5 4.5 0 010-9 5.5 5.5 0 0110.6-1.8A4 4 0 0117 18H7z"/></svg></div>
+        <h4>Cloud Practitioner Essentials</h4>
+        <span>Dayananda Sagar University</span>
+      </div>
+    </div>
+
+    <div class="events-row reveal">
+      <div class="event-chip"><span class="yr">2026</span>Paper published — ICEMCSI</div>
+      <div class="event-chip"><span class="yr">2026</span>KSCST-funded project — Govt. of Karnataka</div>
+      <div class="event-chip"><span class="yr">2025</span>Smart India Hackathon</div>
+      <div class="event-chip"><span class="yr">2025</span>WebWizard — IEEE ComSoc DSU</div>
+      <div class="event-chip"><span class="yr">2025</span>NASA Space Apps Challenge</div>
+      <div class="event-chip"><span class="yr">2025</span>CodeCircuit × Outlier AI</div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="contact-section">
+  <div class="container">
+    <div class="contact-card reveal-scale">
+      <div class="blob blob-blue" style="top:-100px;left:-80px;width:340px;height:340px;"></div>
+      <div class="blob blob-violet" style="bottom:-100px;right:-80px;width:340px;height:340px;"></div>
+      <div class="contact-inner">
+        <span class="eyebrow" style="justify-content:center;">Contact</span>
+        <h2 class="contact-title">Let's build something worth shipping.</h2>
+        <p class="contact-sub">Open to AI/ML, SAP BTP, and full-stack roles — and always happy to talk through an interesting problem.</p>
+        <span class="magnetic"><a href="mailto:sangameshb510@gmail.com" class="contact-email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18v12H3z"/><path d="M3 7l9 6 9-6"/></svg>
+          sangameshb510@gmail.com
+        </a></span>
+        <div class="contact-links">
+          <a href="https://github.com/Sangu-b" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/sangameshbiradar/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="tel:+918660716629" aria-label="Phone">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-name">SANGAMESH BIRADAR</div>
+    <div class="footer-meta">
+      <span>© 2026 · All rights reserved</span>
+      <span>Bengaluru, Karnataka</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
